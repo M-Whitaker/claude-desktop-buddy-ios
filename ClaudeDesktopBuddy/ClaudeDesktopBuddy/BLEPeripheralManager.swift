@@ -101,7 +101,7 @@ class BLEPeripheralManager: NSObject, ObservableObject {
     private func beginAdvertising() {
         peripheralManager.startAdvertising([
             CBAdvertisementDataServiceUUIDsKey: [NUS.service],
-            CBAdvertisementDataLocalNameKey: deviceName
+            CBAdvertisementDataLocalNameKey: "ClaudeBuddy"
         ])
         isAdvertising = true
     }

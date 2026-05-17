@@ -29,9 +29,22 @@
 		75BC03202FBA7DDD0056E73D /* ClaudeDesktopBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaudeDesktopBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		75BC03532FBA80CF0056E73D /* Exceptions for "ClaudeDesktopBuddy" folder in "ClaudeDesktopBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 75BC03052FBA7DD80056E73D /* ClaudeDesktopBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		75BC03082FBA7DD80056E73D /* ClaudeDesktopBuddy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				75BC03532FBA80CF0056E73D /* Exceptions for "ClaudeDesktopBuddy" folder in "ClaudeDesktopBuddy" target */,
+			);
 			path = ClaudeDesktopBuddy;
 			sourceTree = "<group>";
 		};
@@ -399,7 +412,10 @@
 				DEVELOPMENT_TEAM = UF5D59LRLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClaudeDesktopBuddy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Claude Desktop Buddy";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Claude Desktop Buddy uses Bluetooth to connect to Claude on your Mac or PC, so you can approve tool calls and monitor sessions from your phone.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Claude Desktop Buddy uses Bluetooth to appear as a hardware buddy device to Claude for Desktop.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,7 +444,10 @@
 				DEVELOPMENT_TEAM = UF5D59LRLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClaudeDesktopBuddy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Claude Desktop Buddy";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Claude Desktop Buddy uses Bluetooth to connect to Claude on your Mac or PC, so you can approve tool calls and monitor sessions from your phone.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Claude Desktop Buddy uses Bluetooth to appear as a hardware buddy device to Claude for Desktop.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
